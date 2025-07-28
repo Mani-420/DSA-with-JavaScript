@@ -27,3 +27,6 @@ function updateArrayWithMap(arr, index, value) {
 }
 let updatedArray = updateArrayWithMap(myArray2, 6, 20);
 console.log(updatedArray);
+
+// Complexity Analysis
+// Time Complexity: O(1) for simple index update, O(n) for map
