@@ -3,27 +3,27 @@ let fruits = ['Apple', 'Banana', 'Cherry'];
 console.log(fruits);
 
 // Access the elements of an array --------------------------
-// console.log(fruits[0]);
-// console.log(fruits[1]);
-// console.log(fruits[2]);
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
 
 // Add elements of an array --------------------------
-// fruits.push('Date'); // Adds 'Date' to the end of the array
-// console.log(fruits);
-// fruits.unshift('Mango'); // Adds 'Mango' to the beginning of the array
-// console.log(fruits);
+fruits.push('Date'); // Adds 'Date' to the end of the array
+console.log(fruits);
+fruits.unshift('Mango'); // Adds 'Mango' to the beginning of the array
+console.log(fruits);
 
 // Remove elements of an array --------------------------
-// fruits.pop(); // Removes the last element
-// console.log(fruits);
-// fruits.shift(); // Removes the first element
-// console.log(fruits);
+fruits.pop(); // Removes the last element
+console.log(fruits);
+fruits.shift(); // Removes the first element
+console.log(fruits);
 
 // length property of an array --------------------------
-// console.log(fruits.length);
+console.log(fruits.length);
 
 // check if a variable is an array --------------------------
-// console.log(Array.isArray(fruits));
+console.log(Array.isArray(fruits));
 
 // iterate over an array --------------------------
 for (let i = 0; i < fruits.length; i++) {
