@@ -24,6 +24,6 @@ function maxWater(heights) {
 }
 
 // Testing
-let heights = [1, 9, 6, 2, 5, 3, 10, 3, 7];
+let heights = [4, 3, 2, 1, 4];
 const result = maxWater(heights);
 console.log('The Container with the Max Water is: ', result);
