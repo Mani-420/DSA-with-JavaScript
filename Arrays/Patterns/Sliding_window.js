@@ -23,7 +23,7 @@ function slidingWindow(arr, k) {
   return maxSum;
 }
 
-// Testing
+// Testing ht Sliding Window
 let anArray = [2, 1, 5, 1, 3, 2];
 let maxSumSubArray = slidingWindow(anArray, 3);
 console.log('The max sum of subarray is: ', maxSumSubArray);
