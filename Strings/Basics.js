@@ -4,8 +4,13 @@ const str1 = 'Hello, World!';
 console.log(str1);
 
 // Object creation using String constructor
-const str4 = new String('Hello World');
+const str4 = new String('I am new here');
 console.log(str4);
+
+// Concatinate
+console.log('\n--- String Concatination ---');
+const strLast = str1 + ' ' + str4;
+console.log(strLast);
 
 // Data type of string literals
 console.log('Primitive string:', typeof str1);
@@ -34,5 +39,3 @@ console.log(
   'Case-insensitive comparison:',
   'Apple'.toLowerCase() === 'apple'.toLowerCase()
 );
-
-
