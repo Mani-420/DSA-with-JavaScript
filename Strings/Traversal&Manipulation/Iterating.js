@@ -9,7 +9,7 @@ function iterateWithFor(testing) {
 }
 
 // Testing
-iterateWithFor(testing);
+const result1 = iterateWithFor(testing);
 
 // Method 2: for...of loop (ES6)
 function iterateWithForOf(str) {
@@ -19,4 +19,6 @@ function iterateWithForOf(str) {
     index++;
   }
 }
-iterateWithForOf(testing);
+
+// Testing
+const result = iterateWithForOf(testing);
