@@ -4,11 +4,11 @@ function anagrams(str1, str2) {
   let freq1 = {};
   let freq2 = {};
 
-  for (let char in freq1) {
+  for (let char of str1) {
     freq1[char] = (freq1[char] || 0) + 1;
   }
 
-  for (let char in freq2) {
+  for (let char of str2) {
     freq2[char] = (freq2[char] || 0) + 1;
   }
 
