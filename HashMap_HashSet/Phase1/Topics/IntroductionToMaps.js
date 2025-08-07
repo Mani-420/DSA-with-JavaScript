@@ -16,6 +16,8 @@ let map2 = new Map([
   ['orange', 8]
 ]);
 
+console.log(map2);
+
 // Getting values
 console.log(map.get('name')); // 'John'
 console.log(map.get('age')); // 25
@@ -27,6 +29,11 @@ console.log(map.has('city')); // false
 // Deleting entries
 map.delete('age');
 console.log(map.has('age')); // false
+
+// Iterating over Map entries
+for (let [key, value] of map) {
+  console.log(`${key}: ${value}`);
+}
 
 // Clear all entries
 // map.clear();
