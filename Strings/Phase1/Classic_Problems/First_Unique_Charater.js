@@ -13,5 +13,5 @@ function firstUniqueCharacter(str) {
 }
 
 // Testing
-let result = firstUniqueCharacter('loveleetcode');
+let result = firstUniqueCharacter('Leetcode');
 console.log('The first unique character is: ', result);
