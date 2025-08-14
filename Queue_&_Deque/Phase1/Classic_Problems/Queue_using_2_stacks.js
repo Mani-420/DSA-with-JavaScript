@@ -24,6 +24,7 @@ class QueueUsing2Stacks {
     return this.outStack.pop();
   }
 
+  // Get 1st Element
   getFront() {
     if (this.isEmpty()) {
       return 'Queue is empty';
