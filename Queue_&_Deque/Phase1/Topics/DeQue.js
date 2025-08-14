@@ -43,6 +43,7 @@ class Deque {
     return this.isEmpty() ? undefined : this.items[this.front];
   }
 
+  // Last Element
   peekRear() {
     return this.isEmpty() ? undefined : this.items[this.rear - 1];
   }
