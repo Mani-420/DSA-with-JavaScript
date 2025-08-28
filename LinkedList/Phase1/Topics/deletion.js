@@ -7,13 +7,13 @@ class ListNode {
 
 function deleteNode(head, target) {
   if (!head) return null;
-  if (head.value === target) return head.next; // Delete head
+  if (head.value === target) return head.next;
 
   let current = head;
   while (current.next) {
     if (current.next.value === target) {
       current.next = current.next.next;
-      break; // Remove this break if you want to delete all occurrences
+      break;
     } else {
       current = current.next;
     }
@@ -48,7 +48,7 @@ node4.next = node5;
 console.log('Before Deleting Node:');
 traverse(head); // 1 -> 2 -> 3 -> 4 -> 5
 
-let newHead = deleteNode(head, 2); // Deletes node with value 2
+let newHead = deleteNode(head, 1);
 
 console.log('After Deleting Node:');
-traverse(newHead); // 1 -> 3 -> 4 -> 5
+traverse(newHead); // 2 -> 3 -> 4 -> 5
